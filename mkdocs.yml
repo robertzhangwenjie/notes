@@ -26,7 +26,8 @@ nav:
   - Home: index.md
   - Kubernetes:
     - kubernetes/index.md
-    - Deployment: kubernetes/deployment.md
+    - Deployment:
+      - kubernetes/deployment.md
   - Python:
       - python/index.md
   - Golang:
