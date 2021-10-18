@@ -10,7 +10,10 @@ func append(slice []Type, elems ...Type) []Type
 ## 解包
 > 解包操作符以... 结束如 slice ...
 ```golang
-var slice1 = []{1,2,3,4}
-var slice2 = []{5,6}
-append(slice1, slice2...)
+var slice1 = []int{1,2,3,4}
+var slice2 = []int{5,6}
+slice3 := append(slice1, slice2...)
+fmt.Println(slice3)
 ```
+> [1 2 3 4 5 6]
+
