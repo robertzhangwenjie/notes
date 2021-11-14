@@ -1,6 +1,6 @@
-## golang web-server design
+# golang web-server design
 
-### server graceful shutdown and double-check forced shutdown
+## server graceful shutdown and double-check forced shutdown
 
 ```golang
 package server
